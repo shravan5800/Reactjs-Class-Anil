@@ -1,4 +1,3 @@
-import { useState } from "react";
 import ComponentB from "./ComponentB";
 
 const ComponentA = () => {
