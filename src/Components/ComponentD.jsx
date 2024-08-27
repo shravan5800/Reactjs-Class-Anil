@@ -5,7 +5,7 @@ const ComponentD = () => {
       return (
             <div className="container">
                   <h3>{component}</h3>
-                  <ComponentE />
+                  <ComponentE>Hello</ComponentE>
             </div>
       );
 };

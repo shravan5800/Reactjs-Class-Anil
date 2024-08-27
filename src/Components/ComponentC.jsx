@@ -1,10 +1,12 @@
 import ComponentD from "./ComponentD";
 
-const ComponentC = () => {
+const ComponentC = (props) => {
       let component = "ComponentC";
       return (
             <div className="container">
-                  <h3>{component}</h3>
+                  <h3>
+                        {component} - {props.message}
+                  </h3>
                   <ComponentD />
             </div>
       );
